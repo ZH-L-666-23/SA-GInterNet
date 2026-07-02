@@ -1,0 +1,6 @@
+ablation_type,description,rmse,mae
+full_model,完整ST-CGSAN模型（空间+时序+结构感知+跨图交互）,1.98,1.45
+no_spatial_branch,去除空间分支（仅时序）,2.68,2.05
+no_temporal_branch,去除时序分支（仅空间）,2.52,1.92
+no_structure_aware,去除结构感知模块（简单GCN）,2.35,1.78
+no_cross_graph_interaction,去除跨图交互模块（简单GRU）,2.41,1.83
