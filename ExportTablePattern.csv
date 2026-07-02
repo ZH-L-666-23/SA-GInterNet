@@ -1,0 +1,22 @@
+﻿列名,含义,单位,数据来源
+sample_id,样本唯一编号,-,自定义
+lon,经度,°,OCO-2/3 卫星观测点
+lat,纬度,°,OCO-2/3 卫星观测点
+date,观测月份（月度聚合）,YYYY-MM,OCO-2/3
+province,所属省份,-,地理匹配
+XCO2,大气 CO₂柱浓度（标签）,ppm,OCO-2/3（qf=0 高质量数据）
+NTL,BRDF 校正夜间灯光,nW/cm²/sr,VNP46A2
+TEM,2m 气温,℃,ERA5-Land
+SP,地表气压,hPa,ERA5-Land
+PRE,月总降水量,mm,ERA5-Land
+ET,月总蒸发量,mm,ERA5-Land
+UW,10m 水平风 U 分量,m/s,ERA5-Land
+VW,10m 垂直风 V 分量,m/s,ERA5-Land
+DSR,向下短波辐射月均值,W/m²,ERA5-Land
+AOD,550nm 气溶胶光学厚度,-,MCD19A2 V6.1
+NDVI,归一化植被指数,-,MOD13A2
+CO,CO 柱浓度,mol/m²,Sentinel-5P
+NO2,NO₂对流层柱浓度,mol/m²,Sentinel-5P
+SO2,SO₂总柱浓度,mol/m²,Sentinel-5P
+O3,O₃总柱浓度,mol/m²,Sentinel-5P
+DEM,地表高程,m,SRTM V4
